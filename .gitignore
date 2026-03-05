@@ -1,0 +1,30 @@
+# R History and Workspace (Os seus atuais)
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# Ambiente Virtual (renv)
+# Ignoramos a biblioteca pesada, mas mantemos o renv.lock para reprodutibilidade
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+
+# Dados e Relatórios (Prevenção contra vazamento de dados pesados/sensíveis)
+data/
+outputs/
+*.csv
+*.xlsx
+*.parquet
+*.rds
+*.Rds
+
+# Arquivos de Sistema Operacional (Windows/Mac)
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Configurações de outros Editores 
+.vscode/

@@ -1,0 +1,59 @@
+---
+title: "README"
+output: html_document
+---
+
+# 📊 Bayesian Dynamic Modeling in Macro & Finance
+
+Este repositório contém as resoluções de listas de exercícios (Homeworks), implementações de códigos e anotações para a disciplina de **Bayesian Dynamic Modeling in Macro & Finance**. O foco principal é a implementação de modelos de séries temporais de espaço de estados (univariados e multivariados) aplicados a dados macroeconômicos e financeiros. 
+
+Toda a inferência é feita sob o paradigma Bayesiano.
+
+---
+
+## 📌 Informações da Disciplina
+* **Período:** 1º semestre de 2026 (Curso de Graduação).
+* **Professor:** Prof. Dr. Hedibert F. Lopes (ISBA Fellow, ISI Fellow).
+* **Monitor (TA):** Guilherme Piantino.
+* **Aulas:** Quintas-feiras, das 09:45 às 11:45.
+* **Monitorias:** Quartas-feiras (datas específicas), das 15:00 às 16:30.
+
+## 📂 Estrutura do Repositório
+* `reports/`: Relatórios gerados com as resoluções das listas de exercícios (ex: HW1, HW2) combinando texto e código R.
+* `R/`: Scripts contendo funções auxiliares para cálculos bayesianos e manipulação de dados.
+* `data/`: Bases de dados utilizadas nas aulas, como dados macroeconômicos e trials de Bernoulli.
+* `renv/`: Ambiente virtual configurado para garantir a reprodutibilidade dos pacotes em R.
+
+## 💻 Stack Tecnológico
+* **Linguagem:** R.
+* Todas as implementações, exemplos de sala de aula e projetos serão desenvolvidos no software estatístico open-source R.
+
+## 📅 Módulos do Curso
+
+### Module 1: Foundations of Bayesian inference and computation
+* Paradigma Bayesiano: Verossimilhanças, prioris, preditivas e posterioris.
+* Seleção de modelos, Fatores de Bayes e Critérios de Informação.
+* Inferência Baseada em Simulação: Métodos de Monte Carlo (MC) e MCMC (SIR, Amostrador de Gibbs e algoritmo de Metropolis-Hastings).
+
+### Module 2: Observation-driven models and dynamic models
+* Modelos ARIMA e GARCH para tendências e volatilidade univariada.
+* Introdução a Modelos Lineares Dinâmicos (DLM): Nível local, tendência local e sazonalidade.
+* Densidades e algoritmos de *Forward filtering* e *backward smoothing*.
+* Séries temporais multivariadas: VAR, BVAR e afins.
+
+### Module 3: Particle filtering, SV and MSSV models & TVP-VAR models
+* Monte Carlo Sequencial: Filtro Bootstrap, filtro de partículas auxiliar e *particle learning*.
+* Volatilidade Estocástica (SV), MSSV e modelos relacionados.
+* Modelos VAR com parâmetros variantes no tempo (TVP-VAR) e VAR aumentado por fatores.
+
+### Module 4: High-dimensional and covariance modeling
+* Estruturas de Fatores Latentes: Modelos Fatoriais Dinâmicos (DFM) para redução de dados em alta dimensão.
+* Volatilidade Multivariada: Modelos de volatilidade estocástica fatorial (FSV) e SV de Cholesky (CSV).
+
+## 📚 Bibliografia Principal
+*(Nota do professor: não compre estes livros!)*
+* *A First Course in Bayesian Statistical Methods* (2009) - Hoff.
+* *Introduction to Bayesian Econometrics* (2008) - Greenberg.
+* *Bayesian Data Analysis* – 3rd edition (2013) - Gelman et al.
+* *Time Series Modeling, Computation, and Inference* – 2nd edition (2021) - Prado, Ferreira & West.
+* *MCMC: Stochastic Simulation for Bayesian Inference* – 2nd edition (2006) - Gamerman & Lopes.
