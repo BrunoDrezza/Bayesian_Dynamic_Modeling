@@ -1,8 +1,3 @@
----
-title: "README"
-output: html_document
----
-
 # 📊 Bayesian Dynamic Modeling in Macro & Finance
 
 Este repositório contém as resoluções de listas de exercícios (Homeworks), implementações de códigos e anotações para a disciplina de **Bayesian Dynamic Modeling in Macro & Finance**. O foco principal é a implementação de modelos de séries temporais de espaço de estados (univariados e multivariados) aplicados a dados macroeconômicos e financeiros. 
